@@ -1,0 +1,25 @@
+package Array;
+
+public class IncrementArray {
+	
+	public static int increment(int n) {
+		n++;
+		return n;
+	}
+	
+	public static int[] increment(int arr[])  {
+		int size=arr.length;
+		for (int i=0;i<size;i++)
+		arr[i]++;
+		return arr;
+	}
+
+	public static void main(String[] args) {
+		int n=10;
+	int 	arr[]= {1,2,3,4,5,6}; 
+		System.out.println(n);
+		System.out.println(arr);
+
+	}
+
+}

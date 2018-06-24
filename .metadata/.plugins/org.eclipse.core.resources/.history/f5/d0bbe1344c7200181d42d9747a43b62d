@@ -1,0 +1,32 @@
+package Array;
+
+import java.util.Scanner;
+
+public class ArrayUse {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		
+		int n=s.nextInt();
+		int arr[]=new int[10];
+		arr[n]=15;
+	//	int a=arr[n-1];
+		
+		
+		char b=s.next().charAt(0);
+       char Charr[]=new char[15];
+       Charr[b]='v';
+       
+       String t=s.nextLine();
+       String Sarr[]=new String[10];
+     
+       
+       System.out.println(arr[n]);
+       System.out.println(Charr[b]);
+       System.out.println(Sarr[5]);
+       System.out.println("a");
+       
+      
+	}
+
+}

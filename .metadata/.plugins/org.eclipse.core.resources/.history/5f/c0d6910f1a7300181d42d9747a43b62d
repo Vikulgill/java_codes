@@ -1,0 +1,9 @@
+package UsingFuncArray;
+
+public class linearSearchInArray {
+
+	public linearSearchInArray() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

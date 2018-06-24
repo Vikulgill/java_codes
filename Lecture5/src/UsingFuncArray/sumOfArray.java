@@ -1,0 +1,30 @@
+package UsingFuncArray;
+
+import java.util.Scanner;
+
+public class sumOfArray {
+
+	 public static int[] input()   {
+		    Scanner s=new Scanner(System.in);
+		    int size=s.nextInt();
+		    int arr[] =new int[size];
+		    for (int i=0;i<size;i++)  {
+		      arr[i]=s.nextInt();
+		    }
+		    return arr;
+		  }
+
+			public static int sum(int arr[]){
+		      int sum=0;
+		 int     size=arr.length;
+		      for (int i=0;i<size;i++)  {
+		       sum=sum+arr[i]; 
+		      }
+		      return sum;
+			}
+			public static void main(String[] args)  {
+				int ans[]=input();
+				int finalans=sum(ans);
+				System.out.println(finalans);
+			}
+}

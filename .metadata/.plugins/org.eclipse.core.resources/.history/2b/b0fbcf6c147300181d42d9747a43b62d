@@ -1,0 +1,9 @@
+package UsingFuncArray;
+
+public class sumOfArray {
+
+	public sumOfArray() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

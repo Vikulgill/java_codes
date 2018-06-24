@@ -1,0 +1,15 @@
+package Functions;
+
+public class Sum {
+
+	public static int func(int a)  {
+		int b=10;
+		a=a+b;
+		return a;
+	}
+	public static void main(String[] args)  {
+		int a=10;
+		int ans=func(a);
+		System.out.println(ans);
+	}
+}
